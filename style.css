@@ -1,0 +1,45 @@
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0fafd;
+    border-top: 3px solid #3d495a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper>* {
+    flex: 1 100%;
+}
+#title {
+    color: #3d495a;
+    font-size: 48px;
+}
+.block {
+    width: 800px;
+    padding: 20px;
+    background-color: #3d495a;
+    margin: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+
+#block1 {
+    background-image: url(./img/heaven.jpg);
+}
+
+#block2 {
+    background: url(./img/garden.jpg) round;
+
+}
+
+#block3 {
+    background: url(./img/underworld.jpg) round;
+}
+
+img {
+    height: 200px;
+    margin: auto;
+    border-radius: 20%;
+    opacity: 0.8;
+}
